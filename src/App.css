@@ -1,11 +1,8 @@
-/* General page styling */
-body {
-  font-family: "Arial", sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
+header {
+  background-color: #61dafb;
+  padding: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
 }
@@ -35,32 +32,8 @@ form {
   margin-top: 20px;
 }
 
-form div {
-  margin-bottom: 15px;
-  text-align: left;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-  color: #666;
-}
-
-input[type="text"],
-input[type="email"] {
-  width: 100%;
-  padding: 10px;
-  margin: 5px 0;
-  box-sizing: border-box;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: #f9f9f9;
-}
-
-button {
-  width: 100%;
-  background-color: #007bff;
+nav a {
+  text-decoration: none;
   color: white;
   padding: 10px;
   border: none;
@@ -80,8 +53,7 @@ ul {
   margin-top: 20px;
 }
 
-li {
-  background-color: #f9f9f9;
+.project {
   border: 1px solid #ddd;
   padding: 10px;
   margin-bottom: 10px;
